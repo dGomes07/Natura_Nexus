@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login</title>
+  <link rel="stylesheet" href="css/styles-2.css" />
+</head>
+<body>
+  <div class="background-overlay"></div>
+  <div class="container fundo">
+    <div class="form-container">
+      <h2>Bem-vindo de volta!</h2>
+      <form id="loginForm">
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Senha" required />
+        <button type="submit" class="custom-btn-login">Entrar</button>
+      </form>
+      <p>Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      alert("Login realizado com sucesso!");
+    });
+  </script>
+</body>
+</html>
