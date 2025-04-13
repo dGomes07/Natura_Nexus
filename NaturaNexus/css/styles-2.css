@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    position: relative;
+    overflow-x: hidden;
+    background-color: #C7F9CC;
+  }
+  
+ 
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .fundo {
+    background-color: rgba(240, 255, 240, 0.7);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container {
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: inherit;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .custom-btn-login {
+    background-color: #C3E88D;
+    color: #2B2B2B;
+  }
+  
+  .custom-btn-login:hover {
+    transform: scale(1.05);
+  }
+  
+  .custom-btn-inscrever {
+    background-color: #5C3714;
+    color: white;
+  }
+  
+  .custom-btn-inscrever:hover {
+    transform: scale(1.05);
+  }
+  
+  a {
+    color: #2C4E1D;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
